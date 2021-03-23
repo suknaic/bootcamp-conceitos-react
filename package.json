@@ -1,0 +1,13 @@
+{
+    "private": true,
+    "workspaces": [
+        "backend",
+        "frontend",
+        "mobile"
+    ],
+    "scripts": {
+        "dev:server": "yarn workspace backend dev",
+        "dev:front": "yarn workspace frontend dev",
+        "dev:mobile": "yarn workspace mobile start"
+    }
+}
